@@ -40,3 +40,5 @@ Multi-Step-Form-React uses:
 - Firebase Authentication & Firebase Database
 - Webpack & Babel
 - Material-UI & Styled-components
+
+![gif](https://i.imgur.com/zp7Q6T7.gif)
