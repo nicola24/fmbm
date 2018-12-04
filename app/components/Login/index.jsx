@@ -152,7 +152,7 @@ class Login extends Component {
                   />
                   <TextField
                     label="Password"
-                    type="text"
+                    type="password"
                     required
                     onChange={this.handleEvent}
                     name="password"
@@ -173,7 +173,7 @@ class Login extends Component {
                   />
                   <TextField
                     label="Password"
-                    type="text"
+                    type="password"
                     required
                     onChange={this.handleEvent}
                     name="password"
