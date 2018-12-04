@@ -4,7 +4,7 @@ import { createStore, compose } from 'redux';
 import { Provider } from 'react-redux';
 
 import rootReducer from './rootReducer';
-import App from './components/Router';
+import Router from './components/Router';
 
 // const store = createStore(
 //   rootReducer,
@@ -17,7 +17,7 @@ const MOUNT_NODE = document.getElementById('app');
 
 render(
   <Provider store={store}>
-    <App />
+    <Router />
   </Provider>,
   MOUNT_NODE,
 );
